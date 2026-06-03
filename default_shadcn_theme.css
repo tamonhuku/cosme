@@ -1,0 +1,39 @@
+/* KEEP_IN_SYNC(fullscreen/resources/figmake/shadcn/globals.css) */
+
+@import "tailwindcss";
+
+:root {
+  --font-size: 16px;
+  --background:oklch(0.985 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.985 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.985 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: #10b981; /* 🟢 ここをピンクから綺麗なエメラルドグリーンに変更しました */
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.985 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.985 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent:oklch(0.985 0 0);
+  --accent-foreground: oklch(0.9)
+}
+/* 📱 画面全体のスクロールバーを非表示にする */
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+html, body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* フィードのスクロールエリア用 */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
